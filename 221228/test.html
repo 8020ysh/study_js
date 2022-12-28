@@ -1,8 +1,8 @@
-<input id=sal1 type="text" oninput="chk_char(this);com_obj_format(this, 15, 0, false);" onkeyup="" maxlength="10"/>
+<input id=sal1 type="text" oninput="chk_char(this);obj_format()" onkeyup="" maxlength="10"/>
 
 <script type="text/javascript">
     function chk_char(obj){
         obj.value = obj.value.replace(/[^0-9]/gi, '');
     }
-    
+
 </script>
